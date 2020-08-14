@@ -1,0 +1,75 @@
+body{
+    background-color:maroon;
+}
+h1{
+    color: white;
+}
+.nav_wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 38px; 
+}
+.left_side{
+    display: flex;
+}
+.nav_wrapper >.left_side > div{
+    margin-right: 36px;
+    font-size: 1em;
+    text-transform: upperCase;
+    
+}
+.nav_link{
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;   
+}
+.nav_link a{
+    text-decoration: none;
+    transition: color 0.5s;
+}
+/*Anchor design*/
+.anchor1:link{
+    text-decoration: underline;
+    color: white;
+}
+.anchor1:visited{
+    text-decoration: underline;
+    color: black;
+}
+.anchor1:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.anchor1:active{
+    background-color: yellow;
+}
+.anchor2:link{
+    text-decoration: underline;
+    color:black;
+}
+.anchor2:visited{
+    text-decoration: underline;
+    color: white;
+}
+.anchor2:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.anchor2:active{
+    background-color: red;
+}
+.anchor3:link{
+    text-decoration: underline;
+    color:black;
+}
+.anchor3:visited{
+    text-decoration: underline;
+    color:white;
+}
+.anchor3:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.anchor3:active{
+    background-color: black;
+}
